@@ -1,0 +1,52 @@
+.note-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  .note-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .note-list {
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    }
+  }
+  
+  .note-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  .note-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .note-item h3 {
+    margin-bottom: 5px;
+  }
+  
+  .note-media {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+  }
+  .image-url{
+    display: flex;
+    justify-content: space-between;
+  }
+  .delete-button{
+    border-radius: 5px;
+    
+  }
+  .note-list{
+    background-color: aliceblue;
+    padding: 10px;
+    border-radius: 5px;
+  }

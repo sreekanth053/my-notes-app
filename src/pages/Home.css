@@ -1,0 +1,12 @@
+.home{
+    margin: 20px;
+    background-color: #afdbec;
+    height: 100vh;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.search-filter{
+    display: flex;
+    justify-content: space-between;
+}

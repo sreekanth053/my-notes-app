@@ -1,0 +1,36 @@
+.note-form {
+    display: grid;
+    gap: 10px;
+  }
+  
+  .add-button{
+    width: 100px;
+  }
+
+  .note-form input,
+  .note-form textarea,
+  .note-form button {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .note-form button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .note-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .note-form {
+      grid-template-columns: 1fr;
+    }
+  }
+  
